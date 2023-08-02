@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Brochure</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Our College!</h1>
+
+        <!-- Image -->
+        <img src="{{ url_for('static', filename='college_image.jpg') }}" alt="College Image">
+
+        <!-- Description -->
+        <p>
+            Our college offers a wide range of courses and extracurricular activities.
+            We have state-of-the-art facilities, experienced faculty, and a vibrant campus life.
+        </p>
+
+        <!-- Other Information -->
+        <h2>Why Choose Our College?</h2>
+        <ul>
+            <li>High-quality education</li>
+            <li>Modern infrastructure</li>
+            <li>Excellent placement opportunities</li>
+            <li>Student-friendly environment</li>
+            <!-- Add more points here -->
+        </ul>
+
+        <!-- Contact Information -->
+        <h2>Contact Us</h2>
+        <p>
+            Address: 123 College Street, City, Country<br>
+            Phone: +1 123-456-7890<br>
+            Email: info@examplecollege.com
+        </p>
+    </div>
+</body>
+</html>
